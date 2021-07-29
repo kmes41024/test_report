@@ -1,0 +1,77 @@
+body
+{
+   background-image: url("background_sqliteRegister.jpg");
+   background-repeat:no-repeat ;
+   background-size:100% 100%;
+   background-attachment: fixed;
+   color:solid black;
+}
+
+.col_1
+{
+	height:90px;
+	width:5cm;
+	padding-left:0.7cm;
+}
+
+.col_2
+{
+	height:90px;
+	width:5cm;
+	padding-left:0.5cm;
+}
+
+.col_3
+{
+	height:90px;
+	width:1cm;
+}
+
+.col_4
+{
+	height:90px;
+	width:5cm;
+	padding-left:0.4cm;
+}
+
+.col_span
+{
+	height:90px;
+	width:11cm;
+	padding:20px 0.5cm 20px 0.5cm;
+}
+
+.info_col
+{
+	height: 50px;
+	width: 4cm;
+	padding-top: 7px;
+}
+
+.btn_col
+{
+	width: 8cm;
+	height: 90px;
+	padding-left: 2cm;
+}
+
+pre 
+{
+	padding: 0px;
+	margin: 0 0 0 0px;
+	background-color: #fff;
+	border: 0px;
+	font-size:24px; 
+	vertical-align:middle;
+	margin:0px;
+}
+
+button
+{
+	height: 50px;
+	width: 4cm;
+	font-size: 20px;
+	background: #ccc;
+	padding-left: 12px;
+	border-radius: 100px;
+}

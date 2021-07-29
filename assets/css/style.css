@@ -1,0 +1,94 @@
+body
+{
+   background-image: url("heartBeat.jpg");
+   background-repeat: no-repeat ;
+   background-size: 100% 100%;
+   background-attachment: fixed;
+   color: solid black;
+}
+
+#fullname
+{
+	height: 50px;
+	width: 9.7cm;
+	font-size: 20pt;
+	border-radius: 8px;
+	padding-left: 10px;
+}
+
+#nameInfo
+{
+	height: 50px;
+	width: 4cm;
+	padding-top: 7px;
+}
+
+#btn_td
+{
+	height: 3rem;
+	width: 90%;
+	font-size: 90%;
+}
+
+.col_1
+{
+	height: 90px;
+	width: 5cm;
+	padding-left: 0.7cm;
+}
+
+.col_span
+{
+	height: 90px;
+	width: 11cm;
+	padding: 20px 0.5cm 20px 0.5cm;
+}
+
+pre 
+{
+	padding: 0px;
+	margin: 0 0 0 0px;
+	background-color: #fff;
+	border: 0px;
+	font-size: 24px; 
+	vertical-align: middle;
+	margin: 0px;
+}
+
+a.button 
+{
+	color: rgba(255,255,255,1);
+	text-decoration: none;
+	background-color: rgba(219,87,5,1);
+	font-family: 'Yanone Kaffeesatz';
+	display: block;
+	padding: 4px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+	-moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+	box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+	text-align: center;
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+
+a.button:active 
+{
+	-webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+	-moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+	box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+	position: relative;
+	top: 6px;
+}
+
+button
+{
+	background-color: #ddd;
+	border-radius: 20px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test Result Search</title>
+
+	<link href="assets/css/root.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div style = "opacity: 0.95;">
+		<div class="modal-dialog" style="width:17cm;">
+			<div class="modal-content">
+				<div class="modal-header" align="center" style = "height:75px;line-height:40px;">
+					<font style="font-family:'思源黑体 CN MEDIUM';font-size:28px;color:#000; " class="m-modal-title">
+						心脉评测结果查询
+					</font>
+				</div>
+				<div class="modal-body" align="center" style="font-family:'思源黑体 CN NORMAL';font-size:20px;padding: 0px 20.5px 0px 20px;margin-bottom:12px;">
+					<div class="panel-body">
+						<form id="contactForm" onsubmit="return false" class="form-horizontal" method="post"><br>
+							<div class="form-area">
+								<div class="form-group">
+									<table>
+										<tr>
+											<td class = "col_1">
+												<div id = "nameInfo">
+													<pre align = "right">测试者姓名 :</pre>
+												</div>
+											</td>
+											<td colspan = "3" class = "col_span">
+												<input type='text' name = "fullname" id = "fullname" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td colspan = "4"  align = "center" class = "col_2">
+												<div id = "btn_td">
+													<a class="button" id = "btn">查询</a>
+												</div>
+											</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+</body> 
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins.js"></script>
+	<script type="text/javascript" src="layui/layui.all.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</html>

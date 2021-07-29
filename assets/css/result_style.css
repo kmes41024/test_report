@@ -1,0 +1,54 @@
+body
+{
+	background: #EEEEEE;
+	font-family: '思源黑体 CN NORMAL';
+}
+
+table
+{
+	margin-top:15px;
+}
+
+i
+{
+	margin-right:10px;
+}
+
+.col_1 
+{
+	line-height: 1.42857143;
+	word-break: break-all;
+	word-wrap: break-word;
+	width: 18cm; 
+	height: 70px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.note
+{
+	background-color: #feebeb;
+	border-radius: 10px;
+}
+
+.table_head
+{
+	height: 36px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.infoBox
+{
+	height: 36px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#main
+{
+	height: 350px;
+	width: 19cm;
+	margin-left: -30px;
+}
+
